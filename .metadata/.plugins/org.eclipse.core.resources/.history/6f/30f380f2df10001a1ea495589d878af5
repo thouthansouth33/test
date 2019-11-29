@@ -1,0 +1,18 @@
+
+public class Test {
+
+	public static void main(String[]args){
+
+        Person jiro=new Person();
+
+
+		System.out.println(jiro.name);
+		System.out.println(jiro.age);
+
+        person saburo=new Person("saburo");
+
+        System.out.println(saburo.name);
+        System.out.println(saburo.age);
+
+	}
+}

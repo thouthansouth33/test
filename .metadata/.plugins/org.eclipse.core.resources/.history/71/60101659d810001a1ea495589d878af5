@@ -1,0 +1,19 @@
+
+public class Test {
+
+	public static void main(String[]args){
+		Person hanako=new Person();
+		hanako.name="鈴木花子";
+		hanako.age=16;
+		hanako.phoneNumber="0120-123-4567";
+		hanako.address="aaa";
+
+		Robot pepper=new Robot();
+		pepper.name="ペッパー";
+
+
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
+	}
+}

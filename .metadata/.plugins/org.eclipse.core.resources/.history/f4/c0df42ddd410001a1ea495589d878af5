@@ -1,0 +1,16 @@
+
+public class Test {
+
+	public static void main(String[]args){
+		Person hanako=new Person();
+		hanako.name="鈴木花子";
+		hanako.age=16;
+		hanako.phoneNumber="0120-123-4567";
+		hanako.address="aaa";
+		
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
+		System.out.println(hanako.phoneNumber);
+		System.out.println(hanako.address);
+	}
+}
